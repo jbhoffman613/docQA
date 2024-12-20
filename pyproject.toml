@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=75.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docQA"
+version = "0.0.1"
+authors = [
+  { name="Josh Hoffman", email="joshbhoffman@gmail.com" },
+]
+description = "A project answer questions about a document"
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: Apache License 2.0",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jbhoffman613/docQA"
