@@ -175,3 +175,5 @@ cython_debug/
 *.doc
 *.docx
 *.pdf
+*.numbers
+*.csv
