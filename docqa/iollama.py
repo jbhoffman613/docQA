@@ -27,7 +27,7 @@ if __name__ == "__main__":
     parser.add_argument("--fname",
                         type=str,
                         default=("/Users/hoffmanj/projects/docQA/docqa/"
-                                 + "doc_extraction/documents/winton_safeco_umbrella_policy.pdf"))
+                                 + "documents/winton_safeco_umbrella_policy.pdf"))
     parser.add_argument("--question",
                         type=str,
                         default=("Can you please summarize this document"

@@ -62,10 +62,10 @@ if __name__ == "__main__":
     parser.add_argument("--fdoc",
                     type=str,
                     default=("/Users/hoffmanj/projects/docQA/docqa/"
-                                + "documents/winton_safeco_homeowner_policy.pdf"))
+                                + "documents/ca_location_agreement.docx"))
     parser.add_argument("--fcsv_qs", type=str, default=("/Users/hoffmanj/projects/"
-                                                        + "docQA/docqa/documents/pdf_qs.csv"))
-    parser.add_argument("--fcsv_save", type=str, default="safeco_homeowner_generated_qa")
+                                                        + "docQA/docqa/documents/docx_qs.csv"))
+    parser.add_argument("--fcsv_save", type=str, default="ca_location_generated_qa_llama")
 
     args = parser.parse_args()
 
